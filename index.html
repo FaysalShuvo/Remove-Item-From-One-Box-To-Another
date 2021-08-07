@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>One To Another</title>
+  </head>
+  <body>
+    <div class="d-flex justify-content-center container mt-5">
+      <table>
+        <tr class="text-center">
+          <th>Box 01</th>
+          <th>Click To Transfer Value</th>
+          <th>Box 02</th>
+        </tr>
+        <tr>
+          <td>
+            <select class="text-center" multiple="multiple" id="listbox1">
+              <option value="1">A</option>
+              <option value="2">B</option>
+              <option value="3">C</option>
+              <option value="4">D</option>
+              <option value="5">E</option>
+              <option value="6">F</option>
+              <option value="7">G</option>
+              <option value="8">H</option>
+              <option value="9">I</option>
+              <option value="10">J</option>
+              <option value="11">K</option>
+              <option value="12">L</option>
+              <option value="13">M</option>
+              <option value="14">O</option>
+            </select>
+          </td>
+
+          <td>
+            <div class="text-center">
+              <div class="ml-4" id="btn01">
+                <img src="redo.svg" alt="" />
+              </div>
+              <div id="btn02">
+                <img style="width: 37px" src="redo1.png" alt="" />
+              </div>
+            </div>
+          </td>
+          <td>
+            <select class="text-center select2" multiple id="listbox2"></select>
+            <input type="button" value="Up" />
+            <input type="button" value="Down" />
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="container mt-3">
+      <div class="row d-flex justify-content-around">
+        <div
+          id="btn03"
+          style="color: white; font-weight: 900; font-size: 20px"
+          class="col-md-4 btn btn-warning"
+        >
+          Choose All Option
+        </div>
+        <div
+          id="btn04"
+          style="color: white; font-weight: 900; font-size: 20px"
+          class="col-md-4 btn btn-warning"
+        >
+          Remove All
+        </div>
+      </div>
+    </div>
+    <script></script>
+  </body>
+</html>
